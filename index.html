@@ -56,13 +56,18 @@
         <section class="title container__exterior">
             <div class="container__medio">
                 <div class="title__container__int">
-                    <div class="title__profile__img"><img class="title__profile" src="assets/img/L4lO.jpg"
-                            alt="Imágen Eduardo Zarate"></div>
+
+                    <div class="title__profile__img">
+                        <img class="title__profile" src="assets/img/L4lO.jpg" alt="Imágen Eduardo Zarate">
+
+                    </div>
                     <div class="title__container">
                         <h2 class="title__bio">Hola! mi nombre es Eduardo y anhelo convertirme en
-                            un Desarrollador FrontEnd...</h2>
-                        <h3 class="title__subsection">Soy Arquitecto, haciendo mi camino en el mundo de la Tecnología y
-                            el Desarrollo Web y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.
+                            un Desarrollador <span>FrontEnd</span>...</h2>
+                        <h3 class="title__subsection">Soy Arquitecto, haciendo mi camino en el mundo de la
+                            <b>Tecnología</b> y
+                            el <b>Desarrollo Web</b> y actualmente estoy participando del proyecto Oracle ONE en Alura
+                            Latam.
                         </h3>
                         <ul class="title__network">
                             <!-- Pon los enlaces de tus redes sociales favoritas -->
@@ -366,13 +371,34 @@
                         <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
                             usted lo antes posible. </h3>
                         <form class="formcontato__form" name="form">
-                            <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required
-                                maxlength="50">
-                            <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
-                            <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required>
-                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
-                                placeholder="Mensaje" required maxlength="50"></textarea>
-                            <button type="submit" class="formcontato__botao" disabled>Enviar mensaje</button>
+                            <div class="formcontato__input__container">
+                                <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre"
+                                    data-tipo="nombre" data-tipo="nombre" required>
+                                <span class="leyenda"></span>
+                            </div>
+
+                            <div class="formcontato__input__container">
+                                <input class="formcontato__input" type="email" name="email" placeholder="E-mail"
+                                    data-tipo="email" required>
+                                <span class="leyenda"></span>
+                            </div>
+
+
+                            <div class="formcontato__input__container">
+                                <input class="formcontato__input" data-tipo="asunto" type="text" name="asunto"
+                                    placeholder="Asunto" required>
+                                <span class="leyenda"></span>
+                            </div>
+
+                            <div class="formcontato__input__container">
+                                <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
+                                    placeholder="Mensaje" required data-tipo="textarea"></textarea>
+                                <span class="leyenda"></span>
+                            </div>
+
+
+                            <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+
                         </form>
                     </div>
                 </div>
@@ -400,7 +426,7 @@
     </section>
     </div>
     <!-- Script del documento JavaScript -->
-    <script src="validacion.js"></script>
+    <script src="assets/js/app.js" type="module"></script>
 </body>
 
 </html>

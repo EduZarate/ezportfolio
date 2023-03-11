@@ -96,6 +96,7 @@
   order: 2;
   display: flex;
   justify-content: center;
+  filter: brightness(80%);
 }
 
 .title__container {
@@ -111,6 +112,13 @@
   font-weight: 700;
   line-height: 3.8rem;
   color: #fbfbfb;
+}
+
+.title__bio span {
+  font-weight: 900;
+  background: linear-gradient(5deg, yellow, #1a2632);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .title__subsection {
@@ -170,6 +178,7 @@
 
 .about__signature {
   height: 5rem;
+  opacity: 75%;
 }
 
 /*Sección Skills - Sección Hobbies*/
@@ -497,6 +506,19 @@
   font-family: var(--Raleway);
   font-size: 1rem;
   color: #121922;
+}
+
+.formcontato__input--invalid {
+  border: 3px double red;
+}
+
+.formcontato__input__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.formcontato__input__container span {
+  color: rgb(254, 95, 95);
 }
 
 .formcontato__input:focus,

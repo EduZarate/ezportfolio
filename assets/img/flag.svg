@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="38.523mm" height="38.523mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3852.3 3852.3"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#FFF212;stroke-width:20;stroke-miterlimit:22.9256}
+    .str0 {stroke:#00AFEF;stroke-width:20;stroke-miterlimit:22.9256}
+    .fil3 {fill:none}
+    .fil1 {fill:#FEFEFE}
+    .fil2 {fill:#FFF212}
+    .fil0 {fill:#00AFEF}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M1921.9 4.23c1063.79,0 1926.17,862.38 1926.17,1926.17 0,1063.79 -862.38,1926.17 -1926.17,1926.17 -1063.79,0 -1926.17,-862.38 -1926.17,-1926.17 0,-1063.79 862.38,-1926.17 1926.17,-1926.17z"/>
+   </clipPath>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g>
+    <g id="_2341953220400">
+     <polygon class="fil0 str0" points="-1126.11,-15.12 4969.91,-15.12 4969.91,1281.89 -1126.11,1281.89 "/>
+     <polygon class="fil1 str0" points="-1126.11,1281.89 4969.91,1281.89 4969.91,2578.91 -1126.11,2578.91 "/>
+     <polygon class="fil0 str0" points="-1126.11,2578.91 4969.91,2578.91 4969.91,3875.92 -1126.11,3875.92 "/>
+     <path class="fil2 str1" d="M1921.9 1476.45c250.71,0 453.95,203.24 453.95,453.95 0,250.71 -203.24,453.95 -453.95,453.95 -250.71,0 -453.95,-203.24 -453.95,-453.95 0,-250.71 203.24,-453.95 453.95,-453.95z"/>
+    </g>
+   </g>
+  </g>
+  <path class="fil3" d="M1921.9 4.23c1063.79,0 1926.17,862.38 1926.17,1926.17 0,1063.79 -862.38,1926.17 -1926.17,1926.17 -1063.79,0 -1926.17,-862.38 -1926.17,-1926.17 0,-1063.79 862.38,-1926.17 1926.17,-1926.17z"/>
+ </g>
+</svg>
