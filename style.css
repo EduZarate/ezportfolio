@@ -133,6 +133,7 @@
   font-weight: 900;
   background: linear-gradient(5deg, yellow, #1a2632);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
