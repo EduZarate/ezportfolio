@@ -22,8 +22,8 @@
 
 .menu__header__img {
   width: 100%;
-  max-width: 5.2rem;
-  min-width: 3.7rem;
+  max-width: 3.3rem;
+  min-width: 2.5rem;
 }
 
 .menu__title {
@@ -73,9 +73,24 @@
 /*Sección Title*/
 
 .title {
-  min-height: calc(100vh - 64px - 383px);
+  min-height: calc(100vh - 64px - 300px);
   padding: 3.75rem 0;
   background-color: #121922;
+  background-image: url(/assets/img/abstract.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-blend-mode: difference;
+  animation: movimiento 10s infinite linear alternate;
+}
+
+@keyframes movimiento {
+  from {
+    background-position: bottom left;
+  }
+  to {
+    background-position: top right;
+  }
 }
 
 .title__container__int {
