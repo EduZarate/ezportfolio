@@ -17,7 +17,7 @@ $carta .= "Mensaje: $mensaje";
 
 // Enviando mensaje
 
-mail($destinatario, $asunto, $carta)
+mail($destinatario, $asunto, $carta, $header)
 
 header("Location:index.html");
 
